@@ -98,7 +98,7 @@
     scene.add(dirLight);
 
     // FLOOR
-    let floorGeometry = new THREE.PlaneGeometry(5000, 5000, 1, 1);
+    /*let floorGeometry = new THREE.PlaneGeometry(5000, 5000, 1, 1);
     let floorMaterial = new THREE.MeshPhongMaterial({
       color: 0xeeeeee,
       shininess: 0 });
@@ -108,7 +108,7 @@
     floor.receiveShadow = true;
     floor.position.y = -11;
     scene.add(floor);
-
+    */
   }
 
 
