@@ -33,7 +33,7 @@
     1000);
     // ORBIT CONTROLS
     const controls = new THREE.OrbitControls(camera, renderer.domElement);
-    controls.target.set(0, 0, 0);
+    controls.target.set(0, -11, 0);
 
     camera.position.z = 0;
     camera.position.x = 0;
@@ -67,7 +67,7 @@
 
       // POSITION LARA
       model.scale.set(10, 10, 10);
-      model.position.y = 0; // -11
+      model.position.y = -11; // -11
       scene.add(model);
 
     },
