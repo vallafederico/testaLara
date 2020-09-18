@@ -37,7 +37,7 @@
 
     camera.position.z = 0;
     camera.position.x = 0;
-    camera.position.y = -3;
+    camera.position.y = 0;
     controls.update();
 
     let lara_txt = new THREE.TextureLoader().load('laratexture_2.jpg');
@@ -67,7 +67,7 @@
 
       // POSITION LARA
       model.scale.set(10, 10, 10);
-      model.position.y = -11;
+      model.position.y = 0; // -11
       scene.add(model);
 
     },
