@@ -35,7 +35,7 @@
     const controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.target.set(0, 0, 0);
 
-    camera.position.z = 20;
+    camera.position.z = 0;
     camera.position.x = 0;
     camera.position.y = -3;
     controls.update();
