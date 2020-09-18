@@ -10,7 +10,7 @@
   init();
   function init() {
 
-    const MODEL_PATH = 'laraF1.gltf';
+    const MODEL_PATH = 'https://cdn.jsdelivr.net/gh/vallafederico/testaLara@master/laraF1.gltf';
     const canvas = document.querySelector('#c');
     const backgroundColor = 0xf1f1f1;
 
