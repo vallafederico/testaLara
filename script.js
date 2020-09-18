@@ -122,6 +122,8 @@
 
     renderer.render(scene, camera);
     requestAnimationFrame(update);
+    	controls.update();
+
   }
 
   update();
